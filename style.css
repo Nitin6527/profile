@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Sacramento');
-
+#title{
+  background-color: #c8e8ed;
+}
 .top-container{
   background-color: #c8e8ed;
   height: 750px;
 }
 body{
-  color: #4a4a48;	
+  color: #4a4a48;
   margin: 0 auto 0 auto;
 }
 .img1{
@@ -25,7 +27,7 @@ body{
 }
 .earth-holder{
   text-align: center;
-  margin: 59px auto 0 auto;
+  margin: 189px auto 0 auto;
   max-width:100%
 
 }
@@ -37,21 +39,25 @@ body{
   margin: 0 auto 0 auto;
   font-weight: normal;
 }
-p{
-  font-size: 2.5rem;
-  text-align: center;
+.toppara{
+  font-size: 1rem;
   font-weight: normal;
+  text-align: center;
+  position: relative;
+  top:100px;
 }
 
 .pic{
   border-radius: 50%;
   height: 10%;
   position: relative;
-  top:20px;
+  top:100px;
   left:50px;
 }
 h1{
-text-align: center;
+  text-align: center;
+  position: relative;
+  top:100px;
 }
 h2{
   text-align: center;
@@ -135,10 +141,7 @@ height: 100px;
   width:25%;
   float: right;
 }
-.gif3{
-  width:200px;
-}
-a
+.footer-link
 {
   color: #105e62;
     font-family: 'Nanum Pen Script', cursive;
@@ -156,7 +159,7 @@ a:hover{
 }
 
 
-.btn {
+.butn {
 	-moz-box-shadow: 6px 8px 20px -11px #1d2626;
 	-webkit-box-shadow: 6px 8px 20px -11px #1d2626;
 	box-shadow: 6px 8px 20px -11px #1d2626;
@@ -181,7 +184,7 @@ a:hover{
 	text-decoration:none;
 	text-shadow:0 1px 0 #3d768a;
 }
-.btn:hover {
+.butn:hover {
 	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #3e7982), color-stop(1, #34baeb));
 	background:-moz-linear-gradient(top, #3e7982 5%, #34baeb 100%);
 	background:-webkit-linear-gradient(top, #3e7982 5%, #34baeb 100%);
@@ -191,7 +194,7 @@ a:hover{
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#3e7982', endColorstr='#34baeb',GradientType=0);
 	background-color:#3e7982;
 }
-.btn:active {
+.butn:active {
 	position:relative;
 	top:1px;
 }
