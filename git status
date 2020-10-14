@@ -1,0 +1,13 @@
+[1mdiff --git a/index.html b/index.html[m
+[1mindex 3355228..0821151 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -52,7 +52,7 @@[m
+     <div class="profile">[m
+       <img class="img3" src="image/gif.webp" alt="image">[m
+       <h2>Hi.</h2>[m
+[31m-      <p>Lorem ipsum dolor sit amet, vitae volutpat, dui conubia, dolor urna. Non auctor, montes nulla distinctio.</p>[m
+[32m+[m[32m      <p>Nitin ipsum dolor sit amet, vitae volutpat, dui conubia, dolor urna. Non auctor, montes nulla distinctio.</p>[m[41m[m
+     </div>[m
+     <hr>[m
+     <div class="skills">[m
